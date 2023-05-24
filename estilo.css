@@ -1,0 +1,75 @@
+* {
+    background-color: #060307;
+    font-family: 'Silkscreen', cursive;
+    color:#51D92B;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    font-size: 28px;
+}
+
+.container {
+    display: flex; /* Define o container como flex */
+    align-items: flex-start; /* Alinha os itens verticalmente */
+    border: 1px solid rgb(12, 239, 12);
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+  }
+  
+.eu {
+    margin-right: 10px;
+	width: 300px; /* Defina a largura desejada */
+    height: auto; /* A altura é ajustada proporcionalmente */
+    
+    
+}
+
+.data {
+    font-size: 30px;
+    margin: 0;
+}
+
+.biocontainer{
+    font-size: 18px;
+}
+
+.hobbiescontainer{
+    display: flex; /* Container flex */
+    border: 1px solid rgb(12, 239, 12);
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+    align-items: flex-start; /* Alinha os itens verticalmente ao centro */
+}
+
+.rpg {
+    
+  	margin-right: 10px;
+ 	border: 3px solid green;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+    width: 650px; /* Defina a largura desejada */
+    height: auto; /* A altura é ajustada proporcionalmente */
+}
+
+.conteudo {
+    flex: 1; /* O conteúdo expande para ocupar o espaço restante */
+    font-size: 18px;
+}
+
+.formcontainer{
+    display: flex;
+    justify-content: center; /* Alinhar horizontalmente ao centro */
+    align-items: center; /* Alinhar verticalmente ao centro */
+    height: 25vh; /* Altura da janela de visualização */
+}
+
+.div1{
+    border: 1px solid rgb(10, 230, 10); /* Borda sólida preta */
+    border-radius: 10px; /* Raio de curvatura de 10 pixels */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 18px;
+}
